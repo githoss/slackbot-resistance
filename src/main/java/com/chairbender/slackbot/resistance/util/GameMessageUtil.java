@@ -34,7 +34,7 @@ public abstract class GameMessageUtil {
         if (otherNames.size() == 1) {
             return otherNames.iterator().next();
         } else if (otherNames.size() == 2) {
-            return otherNames.iterator().next() + " and " + otherNames.iterator().next();
+            return otherNames.iterator().next() + " and " + otherNames.iterator().next().next();
         }
 
         int i = 0;
